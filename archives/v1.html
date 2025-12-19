@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TETRIS</title>
+  <link rel="stylesheet" href="/tetris/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="tetris">
+	<canvas id="tetrisCanvas" width="300" height="600"></canvas>
+	<div id="mobile-controls">
+		<div id="left-controls" style="align-items:center">
+			<div class="control-row middle-row">
+				<button id="left-btn">←</button>
+				&nbsp;
+				<button id="right-btn">→</button>
+			</div>
+			<button id="down-btn">↓</button>
+		</div>
+		<div id="right-controls">
+			<button id="rotate-btn"></button>
+		</div>
+	</div>
+</div>
+<div id="score">Score</div>
+<div id="timer">High</div>
+<div id="background"></div>
+<!-- partial -->
+  <script  src="/tetris/script.js"></script>
+
+</body>
+</html>
